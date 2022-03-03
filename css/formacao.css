@@ -1,0 +1,149 @@
+.formacao-home {
+  background-color: #141414;
+}
+
+.formacao {
+  display: flex;
+  gap: 118px;
+  padding-top: 110px;
+}
+
+.formacao h2 {
+  text-transform: uppercase;
+  font-size: 14.4rem;
+  line-height: 14.4rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.formacao-intro {
+  color: #a3a3a3;
+  max-width: 523px;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 60px;
+}
+
+.formacao-txt strong {
+  color: #ffffff;
+}
+
+.formacao-cards {
+  display: flex;
+  gap: 26px;
+}
+
+.info-cards {
+  position: relative;
+  background: #090909;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 200px;
+  height: 190px;
+  padding: 20px;
+}
+
+.info-cards::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  left: -5px;
+  top: 64px;
+}
+
+.formacao-cards span {
+  font-weight: normal;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+
+.formacao-cards h3 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.info-cards p {
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #a3a3a3;
+}
+
+/* cursos */
+.cursos {
+  display: flex;
+  padding-top: 60px;
+  gap: 426px;
+  margin-bottom: 58px;
+}
+
+.formacao h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.titulo-curso::before {
+  content: "";
+  position: absolute;
+  background: url(/img/cursos.svg);
+  width: 24px;
+  height: 24px;
+  left: -35px;
+  top: -5px;
+}
+
+.nome-cursos p {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+.nome-cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.duracao-cursos {
+  display: flex;
+  flex-direction: column;
+  color: #8f8f8f;
+  font-weight: normal;
+  font-size: 1.8rem;
+  padding-top: 48px;
+  gap: 20px;
+}
+
+/* idiomas */
+
+.titulo-idioma::before {
+  content: "";
+  position: absolute;
+  background: url(/img/idiomas.svg);
+  width: 24px;
+  height: 24px;
+  left: -35px;
+  top: -5px;
+}
+
+.lista-idiomas {
+  color: #8f8f8f;
+  font-weight: normal;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-bottom: 120px;
+}
+
+

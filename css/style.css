@@ -1,0 +1,66 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Sora:wght@300;400;700;800&display=swap");
+@import url(/css/grid.css);
+@import url(/css/default.css);
+@import url(/css/experiencia.css);
+@import url(/css/formacao.css);
+@import url(/css/footer.css);
+@import url(/css/responsivo.css);
+
+/* header */
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu li a {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #141414;
+}
+
+/* main */
+.main-principal {
+  display: flex;
+  gap: 140px;
+  padding-top: 80px;
+}
+
+.imagem-main img {
+  max-width: 360px;
+}
+
+
+.principal-txt h1 {
+  position: relative;
+  padding-top: 125px;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 80px;
+  color: #141414;
+}
+h1::before{
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(/img/detalhe.svg) no-repeat center;
+  width: 140px;
+  height: 100px;
+  z-index: -5;
+  left: -55px;
+  top: 110px;
+}
+
+.principal-txt p {
+  font-weight: normal;
+  font-size: 24px;
+  color: #525252;
+  padding-top: 30px;
+}
+

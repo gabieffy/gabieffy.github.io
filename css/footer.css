@@ -1,0 +1,46 @@
+.rodape {
+  background: #000;
+  position: relative;
+}
+
+.contato {
+  display: flex;
+  gap: 270px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.intro-contato {
+  color: #cccccc;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  max-width: 429px;
+}
+
+.info-contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+
+.rodape::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(/img/detalhe.svg) no-repeat center;
+  width: 140px;
+  height: 100px;
+  left: 180px;
+  top: -55px;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #8f8f8f;
+  padding-bottom: 60px;
+}

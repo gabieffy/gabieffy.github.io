@@ -1,0 +1,9 @@
+@media (max-width: 1174px) {
+  .experiencia {
+    gap: 50px;
+  }
+  .formacao{
+    gap: 50px;
+  }
+
+}
